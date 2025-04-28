@@ -151,7 +151,7 @@ async def gcast_handler(client, message):
 <b>⌭ {ggl} ɢᴀɢᴀʟ : {failed} ᴄʜᴀᴛ</b>
 <b>⌭ {ktrng} ᴛʏᴘᴇ :</b> <code>{command}</code></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
     return await message.reply(_gcs)
 
@@ -218,7 +218,7 @@ async def _(client, message):
 <blockquote><b>⌭ {brhsl} sᴜᴄᴄᴇs {done} ɢʀᴏᴜᴘ</b>
 <b>⌭ {ggl} ғᴀɪʟᴇᴅ {failed} ɢʀᴏᴜᴘ</blockquote></b>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
     return await message.reply(_gcs)
 
@@ -251,7 +251,7 @@ async def _(client, message):
         except Exception:
             pass
 
-    return await msg.edit(f"<blockquote><b>⌭ Pesan broadcast berhasil terkirim ke {done} user</blockquote></b>\n\n<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>")
+    return await msg.edit(f"<blockquote><b>⌭ Pesan broadcast berhasil terkirim ke {done} user</blockquote></b>\n\n<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>")
 
 
 @PY.UBOT("addbl")
@@ -273,14 +273,14 @@ async def _(client, message):
 <blockquote><b>⌭ {grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>
 <blockquote><b>⌭ {ktrn} ᴋᴇᴛ: sᴜᴅᴀʜ ᴀᴅᴀ ᴅᴀʟᴀᴍ ʟɪsᴛ</blockquote></b>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
         else:
             await add_to_vars(client.me.id, "BL_ID", chat_id)
             txt = f"""
 <blockquote><b>⌭ {grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>\n<blockquote><b>⌭ {ktrn} ᴋᴇᴛ: ʙᴇʀʜᴀsɪʟ ᴅɪᴍᴀsᴜᴋᴀɴ ᴋᴇ ɢʀᴜʙ ѕᴀᴍᴘᴀʜ</blockquote></b>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
 
         return await msg.edit(txt)
@@ -307,7 +307,7 @@ async def _(client, message):
 <blockquote><b>⌭ {grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote></b>
 <blockquote><b>⌭ {ktrn} ᴋᴇᴛ: ᴛɪᴅᴀᴋ ᴀᴅᴀ ᴅᴀʟᴀᴍ ʟɪsᴛ </b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
         else:
             await remove_from_vars(client.me.id, "BL_ID", chat_id)
@@ -315,7 +315,7 @@ async def _(client, message):
 <blockquote><b>⌭ {grp} ɢʀᴏᴜᴘ: {message.chat.title}</blockquote ></b>
 <blockquote><b>⌭ {ktrn} ᴋᴇᴛ: ʙᴇʀʜᴀsɪʟ ᴅɪ ʜᴀᴘᴜs ᴋᴇ ᴅᴀʟᴀᴍ ʟɪsᴛ </blockquote></b>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
 
         return await msg.edit(response)
