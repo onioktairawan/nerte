@@ -57,7 +57,7 @@ async def _(client, message):
 <b>⌭ {tion} ʟɪᴍɪᴛ ᴄʜᴇᴄᴋ : ᴀᴋᴜɴ ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴅɪʙᴀᴛᴀsɪ</b>
 <b>⌭ {yubot} ᴜʙᴏᴛ : {bot.me.mention}</b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
             else:
                 text = f"""
@@ -65,7 +65,7 @@ async def _(client, message):
 <b>⌭ ʟɪᴍɪᴛ ᴄʜᴇᴄᴋ : ᴀᴋᴜɴ ᴀɴᴅᴀ ᴛɪᴅᴀᴋ ᴅɪʙᴀᴛᴀsɪ</b>
 <b>⌭ ᴜʙᴏᴛ : {bot.me.mention}</b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
             await client.send_message(message.chat.id, text)
             return await client.invoke(DeleteHistory(peer=bot_info, max_id=0, revoke=True))
@@ -76,7 +76,7 @@ async def _(client, message):
 <b>⌭ {tion} ʟɪᴍɪᴛ ᴄʜᴇᴄᴋ : ᴀᴋᴜɴ ᴀɴᴅᴀ ʙᴇʀᴍᴀsᴀʟᴀʜ</b> 
 <b>⌭ {yubot} ᴜʙᴏᴛ : {bot.me.mention}</b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
             else:
                 text = f"""
@@ -84,7 +84,7 @@ async def _(client, message):
 <b>⌭ ʟɪᴍɪᴛ ᴄʜᴇᴄᴋ : ᴀᴋᴜɴ ᴀɴᴅᴀ ʙᴇʀᴍᴀsᴀʟᴀʜ</b>
 <b>⌭ ᴜʙᴏᴛ : {bot.me.mention}</b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
 """
             await client.send_message(message.chat.id, text)
             return await client.invoke(DeleteHistory(peer=bot_info, max_id=0, revoke=True))
