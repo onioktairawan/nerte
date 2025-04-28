@@ -212,7 +212,7 @@ async def _(client, message):
 <b>{tion}ᴀᴅᴍɪɴ: {message.from_user.mention}</b>
 <b>{ktrng}ᴀʟᴀꜱᴀɴ: {reason}</b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
             """
         try:
             await message.chat.ban_member(user_id)
@@ -240,7 +240,7 @@ async def _(client, message):
 <b>{tion}⎆ ᴀᴅᴍɪɴ: {message.from_user.mention}</b>
 <b>{ktrng}⎆ ᴀʟᴀꜱᴀɴ: {reason}</b></blockquote>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
             """
         try:
             await message.chat.ban_member(user_id)
@@ -266,7 +266,7 @@ async def _(client, message):
 <b>{tion}⎆ ᴀᴅᴍɪɴ: {message.from_user.mention}</b>
 <b>{ktrng}⎆ ᴀʟᴀꜱᴀɴ: {reason}</blockquote></b>\n<blockquote><b>⎆ ᴋᴇᴛ: ᴍᴀᴍᴘᴜs ᴅɪ ᴍᴜᴛᴇ ᴇᴛᴍɪɴ</blockquote></b>
 
-<blockquote><b>ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ</b></blockquote>
+<blockquote><b>ᣃ࿈ @serpagengs ࿈ᣄ</b></blockquote>
             """
         try:
             await message.chat.restrict_member(user_id, ChatPermissions())
