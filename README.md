@@ -1,5 +1,5 @@
 
-# Vii Userbot
+#  Userbot
 
 Panduan Instalasi dan Penggunaan Vii Userbot
 
@@ -11,7 +11,7 @@ apt update && apt upgrade -y
 ```
 
 ## Langkah 2: Clone Repository
-Clone repository Vii Userbot dari GitHub:
+Clone repository  Userbot dari GitHub:
 
 ```bash
 git clone https://github.com/onioktairawan/serpabot
@@ -93,4 +93,4 @@ Jika userbot mati dan perlu dihidupkan kembali, ikuti langkah-langkah berikut:
     python3 -m PyroUbot
     ```
 
-Dengan mengikuti langkah-langkah ini, Vii Userbot akan berjalan dengan lancar di server kamu.
+Dengan mengikuti langkah-langkah ini, Userbot akan berjalan dengan lancar di server kamu.
