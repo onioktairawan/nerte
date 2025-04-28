@@ -54,7 +54,7 @@ Qris : | https://files.catbox.moe/bxfxjr.png |
             )
             CONFIRM_PAYMENT.remove(get.id)
             buttons = [
-                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/azelloelvanoo")]
+                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/serpagengs")]
             ]
             return await bot.send_message(
                 user_id,
