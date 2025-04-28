@@ -30,7 +30,7 @@ async def tiktok_handler(client, message):
         else:
             video_url = data["result"]["play"]
             video_caption = data["result"]["title"]
-            await client.send_video(message.chat.id, video_url, caption=f"```\ndone ᣃ࿈ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ࿈ᣄ```")
+            await client.send_video(message.chat.id, video_url, caption=f"```\ndone ᣃ࿈ @serpagengs ࿈ᣄ```")
 
             audio_url = data["result"]["music_info"]["play"]
             audio_title = data["result"]["music_info"]["title"]
