@@ -7,6 +7,22 @@ from pyrogram import Client
 from pyrogram.errors import FloodWait
 from PyroUbot import *
 
+from pyrogram.types import Message
+
+async def patched_reply(self, text=None, **kwargs):
+    header = "<i>via</i> <a href='https://t.me/serpaubot'>@serpaubot</a>\n\n"
+    if text:
+        text = header + text
+    return await self._client.send_message(
+        chat_id=self.chat.id,
+        text=text,
+        reply_to_message_id=self.id,
+        parse_mode="HTML",
+        **kwargs
+    )
+
+Message.reply = patched_reply  # <- patch reply method globally
+
 async def shutdown(signal, loop):
     print(f"Received exit signal {signal.name}...")
     tasks = [t for t in asyncio.all_tasks() if t is not asyncio.current_task()]
