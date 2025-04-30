@@ -2,7 +2,7 @@ import signal
 import tornado.ioloop
 import tornado.platform.asyncio
 import asyncio
-import datetime
+from datetime import datetime  # Perbaiki import datetime
 from pyrogram import Client
 from pyrogram.errors import FloodWait
 from PyroUbot import *
@@ -20,13 +20,13 @@ async def shutdown(signal, loop):
 async def start_bot():
     try:
         await bot.start()
-        print(f"[{datetime.datetime.now()}] Bot started successfully!")
+        print(f"[{datetime.now()}] Bot started successfully!")
     except FloodWait as e:
-        print(f"[{datetime.datetime.now()}] FloodWait detected: sleeping for {e.value} seconds.")
+        print(f"[{datetime.now()}] FloodWait detected: sleeping for {e.value} seconds.")
         await asyncio.sleep(e.value)
         await start_bot()  # retry after FloodWait
     except Exception as e:
-        print(f"[{datetime.datetime.now()}] Error while starting bot: {e}")
+        print(f"[{datetime.now()}] Error while starting bot: {e}")
         raise  # re-raise exception if it's not FloodWait
 
 async def main():
@@ -38,10 +38,10 @@ async def main():
             await asyncio.wait_for(ubot_.start(), timeout=10)
         except asyncio.TimeoutError:
             await remove_ubot(int(_ubot["xzhee"]))
-            print(f"[{datetime.datetime.now()}] [INFO]: {int(_ubot['name'])} Timeout, failed to respond.")
+            print(f"[{datetime.now()}] [INFO]: {int(_ubot['name'])} Timeout, failed to respond.")
         except Exception:
             await remove_ubot(int(_ubot["name"]))
-            print(f"[{datetime.datetime.now()}] [INFO]: {int(_ubot['name'])} successfully removed.")
+            print(f"[{datetime.now()}] [INFO]: {int(_ubot['name'])} successfully removed.")
     
     await bash("rm -rf *session*")
     await asyncio.gather(loadPlugins(), installPeer(), expiredUserbots())
