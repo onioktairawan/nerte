@@ -20,7 +20,7 @@ git clone https://github.com/onioktairawan/serpabot
 Masuk ke direktori `serpabot`:
 
 ```bash
-cd serpabot
+cd nerte
 ```
 
 ## Langkah 3: Install Dependencies
