@@ -17,7 +17,7 @@ Clone repository  Userbot dari GitHub:
 git clone https://github.com/onioktairawan/serpabot
 ```
 
-Masuk ke direktori `serpabot`:
+Masuk ke direktori `nerte`:
 
 ```bash
 cd nerte
